@@ -42,7 +42,7 @@ The preset configures the encoders as follows:
 
    > If the folder doesn't exist, create it. This location survives Live updates.
 
-2. Copy the entire `MinilabMk2_MacroMapper` folder here.
+2. Paste __init__.py from this repo into a directory with the name `MinilabMk2_MacroMapper` here.
 
 3. Restart Ableton Live.
 
