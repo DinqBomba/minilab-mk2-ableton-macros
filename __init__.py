@@ -5,21 +5,21 @@ Ableton Live 11/12 MIDI Remote Script for the Arturia MiniLab Mk2.
 
 Automatically maps encoders to rack macros on the SELECTED track:
 
-  Top row    encoders 1-8   (CC 14-21, ch 1)  → Instrument Rack macros 1-8
-  Bottom row encoders 9-16  (CC 22-29, ch 1)  → Audio Effect Rack macros 1-8
+  Top row    encoders 1-8 → Instrument Rack macros 1-8
+  Bottom row encoders 9-16 → Audio Effect Rack macros 1-8
 
 Both mappings update instantly whenever you select a different track.
 No blue hand focus required — just select the track and twist.
 
 Push controls:
-  Encoder 1 push  (CC 112, ch 1)  → toggle Instrument Rack on/off
-  Encoder 9 push  (CC 113, ch 1)  → toggle Audio Effect Rack on/off
+  Encoder 1 push → toggle Instrument Rack on/off
+  Encoder 9 push → toggle Audio Effect Rack on/off
 
 Rack detection uses device.class_name:
   "InstrumentGroupDevice"  → Instrument Rack
   "AudioEffectGroupDevice" → Audio Effect Rack (first one found on the chain)
 
-Author: generated for beatmaking workflow extension
+Author: Veselin Vasilev
 Requires: MiniLab Mk2 in Ableton/DAW mode (Shift + Pad 8)
 Tested:   Ableton Live 11 / 12  (Python 3)
 """
